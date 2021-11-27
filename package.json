@@ -1,0 +1,16 @@
+{
+  "name": "snowflakes",
+  "version": "1.0.0",
+  "description": "Snowflakes tutorial write up of The Coding Train's Coding Challenge #88: Snowfall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files --watch"
+  },
+  "keywords": [],
+  "author": "Fokke-Jan Swart",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
