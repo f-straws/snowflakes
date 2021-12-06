@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "browser-sync start --server --files --watch"
+    "serve": "browser-sync start --server --files --watch",
+    "docs:serve": "docsify serve ./docs"
   },
   "keywords": [],
   "author": "Fokke-Jan Swart",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "docsify-cli": "^4.4.3"
   }
 }
