@@ -2,15 +2,15 @@
 ## Digitaal tekenpapier
 -->
 
-Om te tekenen heb je iets nodig om op te (mogen?) tekenen. In p5js kan je, je digitale tekenpapier maken met
-de functie `createCanvas`. Wat je daarvoor moet doen is de functie aanroepen en twee getallen meegeven:
-- breedte, en
+Om te tekenen, heb je iets nodig om op te (mogen?) tekenen. In p5js kan je je digitale tekenpapier maken met
+de functie `createCanvas`. Wat je daarvoor moet doen, is de functie aanroepen en twee getallen meegeven:
+- breedte
 - lengte
 
 <details>
-<summary>Click en zie code!</summary>
+<summary>Klik en zie de code!</summary>
 
-Papieren van verschillende grootte en kleur, kan je het papier veranderen? 
+Je ziet papieren van verschillende grootte en kleur. Kan je een papier veranderen van grootte en kleur? 
 (Kopieer en plak de code in je [editor](https://editor.p5js.org) )
 
 ```javascript
