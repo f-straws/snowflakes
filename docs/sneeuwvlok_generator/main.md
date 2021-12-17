@@ -16,7 +16,7 @@ Het zijn foto's van sneeuwvlokken die in de natuur tegen zijn gekomen. Ze zijn o
 
 </details>
 
-Hieronder vind je een uitleg hoe je sneeuwkristallen kan tekenen op de computer met `p5.js` (wil je liever een filmpje zien? Op basis van [deze Engelse uitleg](https://youtu.be/R3C2giDfmO8) is deze Nederlandse uitleg geschreven). 
+Hieronder vind je een uitleg hoe je een programma kan schrijven met `p5js` waarmee je vervolgens sneeuwkristallen kan tekenen op de computer (wil je liever een filmpje zien? Op basis van [deze Engelse uitleg](https://youtu.be/R3C2giDfmO8) is deze Nederlandse uitleg geschreven). 
 
 Sneeuwvlokken kan je op verschillende manieren 'maken',
 - door te [vouwen en te knippen](https://nzmaths.co.nz/sites/default/files/SnazzySnowflakes.pdf),
@@ -25,6 +25,7 @@ Sneeuwvlokken kan je op verschillende manieren 'maken',
 
 Kan jij nog andere manieren bedenken?
 
+(Wil je meteen gaan tekenen of met de eind code aan de slag? Spring dan meteen naar [Sneeuwvlok maken](##sneeuwvlok-maken))
 ## Symmetrie
 Kijk eens naar de volgende tekening,
 
@@ -44,7 +45,7 @@ Zie je misschien ook de "spiegel symmetrie"?
 
 !["sneeuwkristal - spiegel-symmetrie"](./images/Frozen_Snow-Flakes-mirror.png)
 
-Zie je nog misschien nog meer?
+Zie je misschien nog meer?
 
 ## Tekenen
 
@@ -63,7 +64,6 @@ te volgen. Bijvoorbeeld, je kan de **start code** kopieren en plakken in de [`p5
 
 Nog anders, mocht je even niet zoveel zin of tijd hebben om de tussenkopjes te volgen, kris kras of opvolgorde, 
 dan kan je [hier](###eind-code) ook al de **Eind code** vinden.
-
 
 
 ### Digitaal papier
@@ -119,13 +119,13 @@ Dit vierkant is het papier waarop je kan tekenen.
 #### Alsof het potlood vast zit aan het papier
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/paper.js ':include :type=code javascript')
 
 </details>
 
-Met de **Start code** kunnen we "digitaal" papier maken en het de kleur geven die we willen.
+Met de **begin code** kunnen we "digitaal" papier maken en het de kleur geven die we willen.
 
 Kopieer en plak een onderstaande code binnenin de functie `draw` (tussen de `{ }`),
 en klik op de "play" knop,
@@ -138,13 +138,13 @@ Als het goed is, zie je een lijn verschijnen, en kan je tekenen!
 #### Het potlood optillen en neerzetten
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/pencil_down_draw.js ':include :type=code javascript')
 
 </details>
 
-Met de **Start code** kunnen we een lange lijn tekenen. Maar, stel je eens voor dat je een 
+Met de **begin code** kunnen we een lange lijn tekenen. Maar, stel je eens voor dat je een 
 echt papier en potlood hebt, hoe teken je dan meerdere lijnen? Klopt het dat je dit doet door 
 het potlood even op te tillen, van het papier af te halen, en daarna ergens anders op het 
 papier weer neer te zetten?
@@ -160,13 +160,13 @@ en druk vervolgens op de "play" knop. Lukt het nu om meerdere lijnen te tekenen?
 ### Tekening bewaren
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript')
 </details>
 
 
-Met de **Start code** kunnen we meerdere zwarte lijnen tekenen door, 
+Met de **begin code** kunnen we meerdere zwarte lijnen tekenen door, 
 - de muis als digitaal potlood over het digitale tekenpapier te bewegen, en
 - het digitale potlood met de muisknop 'op en neer' te bewegen. 
 
@@ -187,18 +187,18 @@ de functie `setup`,
 
 [](./snippets/save_drawing.js ':include :type=code javascript :fragment=save-instructie') 
 
-Als je nu een tekening maken en daarna op de 'save' knop drukt, wat gebeurt er dan? Kan je de tekening opslaan op je computer?  
+Als je nu een tekening maakt en daarna op de 'save' knop drukt, wat gebeurt er dan? Kan je de tekening opslaan op je computer?  
 
 ### Kleurdoos
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/save_drawing.js ':include :type=code javascript')
 
 </details>
 
-Met de **Start code** kunnen we meerdere zwarte lijnen tekenen door, 
+Met de **begin code** kunnen we meerdere zwarte lijnen tekenen door, 
 - de muis als digitaal potlood over het digitale tekenpapier te bewegen,
 - het digitale potlood met de muisknop 'op en neer' te bewegen, en
 - de tekening bewaren.
@@ -255,12 +255,12 @@ dan kan je [hier](###eind-code-2-x-6) ook al de **Eind code** vinden.
 ### Tekenen in Spiegelbeeld
  
 <details>
-<summary>Start code!</summary>
+<summary>Begin code</summary>
 
 [](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript')
 </details>
 
-Kopieer en plak de **Start code** in de [editor](https://editor.p5js.org). Als je vervolgens op "play" 
+Kopieer en plak de **begin code** in de [editor](https://editor.p5js.org). Als je vervolgens op "play" 
 klikt, dan, 
 - zie je als het goed is een grijs "vel digitaal papier",
 - kan je tekenen door je muisknop ingedrukt te houden en de muis over het digitale papier te bewegen.
@@ -280,12 +280,12 @@ Als het goed is zie je dat je met "twee handen" tekent, waarvan de ene het spieg
 ### Het papier verdelen in vlakken
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript')
 </details>
 
-Kopieer en plak eens de **Start code** in de [editor](https://editor.p5js.org). Als je vervolgens op "play" 
+Kopieer en plak eens de **begin code** in de [editor](https://editor.p5js.org). Als je vervolgens op "play" 
 klikt, dan, 
 - zie je als het goed is een grijs "vel digitaal papier",
 - kan je tekenen door je muisknop ingedrukt te houden en de muis over het digitale papier te bewegen.
@@ -307,13 +307,13 @@ Als het goed is zie je nu,
 ### Tekenen in 6 vlakken
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/divide_in_planes.js ':include :type=code javascript')
 
 </details>
 
-Wanneer je de start code kopieert en plakt in de [editor](https://editor.p5js.org) en vervolgens op "play" 
+Wanneer je de **begin code** kopieert en plakt in de [editor](https://editor.p5js.org) en vervolgens op "play" 
 klikt, dan zie je als het goed is een papier verdeelt in 6 vlakken.
 
 Vervang eens in de code,
@@ -332,13 +332,13 @@ Als het goed is zie je dat je door in een vlak te tekenen, in alle vlakken tegel
 
 
 <details>
-<summary>Start code!</summary>
+<summary>Begin code (code tot nu toe)</summary>
 
 [](./snippets/rotation_symmetry.js ':include :type=code javascript')
 
 </details>
 
-Wanneer je de start code kopieert en plakt in de [editor](https://editor.p5js.org) en vervolgens op "play" 
+Wanneer je de **begin code** kopieert en plakt in de [editor](https://editor.p5js.org) en vervolgens op "play" 
 klikt, dan kan je als het goed is in 6 vlakken tegelijk tekenen: met 6 handen!
 
 Maar... het doel is om met 2 x 6 = 12 handen tegelijk te kunnen tekenen. Het "potlood" waarmee we met 6 
@@ -366,7 +366,7 @@ Hier is dan de eind code! Alle stukjes code die hierboven beschreven staan zul j
 
 ## Sneeuwvlok tekenen
 
-In ["Tekenen"](##tekenen), kan je zien hoe een basis code opgebouwd om digitale potlood tekeningen 
+In ["Tekenen"](##tekenen), kan je zien hoe een basis code wordt opgebouwd om digitale potlood tekeningen 
 te kunnen maken, met verschillende kleuren en verschillende papier grootte en kleur. De code wordt opgebouwd 
 vanaf [digitaal papier](###digitaal-papier).
 
@@ -389,7 +389,7 @@ in zich hebben.
 
 Onderaan zijn de twee "**eind codes**" samenvoegd zodat je 
 - sneeuwkristallen kan tekenen met verschillende kleuren, en
-- je deze tekeningen kan opslaan.
+- deze tekeningen kan opslaan.
 
 Ook is er nog iets aan toegevoegd, kan je ontdekken wat? (in de code, maar ook in een tekening?)
 
