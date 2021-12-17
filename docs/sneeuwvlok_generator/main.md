@@ -50,10 +50,10 @@ Zie je nog misschien nog meer?
 
 Hieronder wordt uitgelegd hoe je digitaal kan tekenen met `p5js`. Stap voor stap 
 laat het je zien hoe je:
-- digitaal papier klaar legt,
-- je muis als digitaal potlood kan gebruiken,
-- een tekening kan bewaren op je computer,
-- je een hele kleurdoos tot je beschikking kan krijgen.
+- [digitaal papier](###digitaal-papier) klaar legt,
+- je muis als [digitaal potlood](###digitaal-potlood) kan gebruiken,
+- een [tekening bewaren](###tekening-bewaren) kan op je computer,
+- je een hele [kleurdoos](###kleurdoos) tot je beschikking kan krijgen.
 
 Maar, ... mocht je er liever kris kras doorheen lopen, of maar bepaalde onderdelen willen doen, 
 dan kan dit. Bijna elk tussenkopje begint met **start code**, die je de basis geeft om dat onderdeel 
@@ -189,7 +189,7 @@ de functie `setup`,
 
 Als je nu een tekening maken en daarna op de 'save' knop drukt, wat gebeurt er dan? Kan je de tekening opslaan op je computer?  
 
-### Kleur potloden
+### Kleurdoos
 
 <details>
 <summary>Start code!</summary>
@@ -229,16 +229,18 @@ En, als je nu met een muisknop ingedrukt je muis over het digitale papier beweeg
 
 ### Eind code
 
-<details>
-<summary>Eind code!</summary>
+Hier is dan de eind code! Alle stukjes code die hierboven beschreven staan zul je hier in terug kunnen vinden. De code kan je gebruiken om tekeningen te maken maar bijvoorbeeld ook om als basis te gebruiken om verdere "teken code" te schrijven!
 
 [](./snippets/drawing.js ':include :type=code javascript')
 
-</details>
-
 ## Tekenen met 2 x 6 handen
 
-Heb je wel eens geprobeerd met twee handen tegelijk te tekenen, in beide een potlood en dan proberen de potloden zo te sturen dat je twee keer hetzelfde tekend?
+Heb je wel eens geprobeerd met twee handen tegelijk te tekenen, in beide een potlood en dan proberen de potloden zo te sturen dat je twee keer hetzelfde tekent? 
+
+Hier onder staat uitgelegd hoe je stap voor stap je "[digitale potlood](###digitaal-potlood)" kan aanpassen, zodat je,
+- kan [tekenen alsof je 2 handen hebt](###tekenen-in-spiegelbeeld), met behulp van spiegel symmetrie,
+- kan [tekenen alsof je 6 handen hebt](###tekenen-in-6-vlakken), door gebruik te maken van rotatie symmetrie,
+- kan [tekenen alsof je 2 x 6 = 12 handen hebt](###tekenen-met-2-x-6-handen), door spiegel en rotatie symmetrie samen te voegen.
 
 ### Tekenen in Spiegelbeeld
  
@@ -292,7 +294,7 @@ Als het goed is zie je nu,
 - 6 lijnen die in het midden bijelkaar komen, en
 - de lijnen verdelen het papier in 6 vlakken.
 
-### Tekenen in de vlakken
+### Tekenen in 6 vlakken
 
 <details>
 <summary>Start code!</summary>
@@ -344,3 +346,5 @@ Wanneer je nu klikt op "play" en je gaat daarna tekenen binnen een vlak, wat zie
 Als het goed is zie je dat je door in een vlak te tekenen, 
 - in alle vlakken tegelijk hetzelfde tekent: rotatie symmetrie
 - binnen een vlak alles 2x tekent: spiegel symmetrie
+
+## Sneeuwvlok tekenen
