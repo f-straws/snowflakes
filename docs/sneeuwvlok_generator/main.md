@@ -57,13 +57,13 @@ laat het je zien hoe je:
 - je een hele [kleurdoos](###kleurdoos) tot je beschikking kan krijgen.
 
 Maar, ... mocht je er liever kris kras doorheen lopen, of maar bepaalde onderdelen willen doen, 
-dan kan dit. Bijna elk tussenkopje begint met **start code**, die je de basis geeft om dat onderdeel 
-te volgen. Bijvoorbeeld, je kan de **start code** kopieren en plakken in de [`p5js` web editor](https://editor.p5js.org), om te kijken wat deze basis code doet. Vervolgens kan je de code aan passen,
+dan kan dit. Bijna elk tussenkopje begint met **begin code**, de code tot dan toe, die je de basis 
+geeft om dat onderdeel te volgen. Je kan de **begin code** kopieren en plakken in de [`p5js` web editor](https://editor.p5js.org), om te kijken wat deze basis code doet. Vervolgens kan je de code aan passen,
 - op basis van wat er in het tussenkopje beschreven staat, of 
 - de beschrijving laten voor wat die is en de code aanpassen zoals je zelf denkt dat het zou moeten :wink: 
 
 Nog anders, mocht je even niet zoveel zin of tijd hebben om de tussenkopjes te volgen, kris kras of opvolgorde, 
-dan kan je [hier](###eind-code) ook al de **Eind code** vinden.
+dan kan je [hier](###eind-code) ook al de **eind code** vinden.
 
 
 ### Digitaal papier
@@ -132,7 +132,7 @@ en klik op de "play" knop,
 
 [](./snippets/pencil_down_draw.js ':include :type=code javascript :fragment=potlood')
 
-Wat gebeurt er, als je nu met je muis over het grijze over je digitale papier heen beweegt?
+Wat gebeurt er, als je nu met je muis over je grijze digitale papier heen beweegt?
 Als het goed is, zie je een lijn verschijnen, en kan je tekenen!
 
 #### Het potlood optillen en neerzetten
@@ -146,11 +146,10 @@ Als het goed is, zie je een lijn verschijnen, en kan je tekenen!
 
 Met de **begin code** kunnen we een lange lijn tekenen. Maar, stel je eens voor dat je een 
 echt papier en potlood hebt, hoe teken je dan meerdere lijnen? Klopt het dat je dit doet door 
-het potlood even op te tillen, van het papier af te halen, en daarna ergens anders op het 
-papier weer neer te zetten?
+het potlood even op te tillen en daarna ergens anders op het papier weer neer te zetten?
 
 Digitaal zouden we het neerzetten van het potlood kunnen doen door een knop van de muis in te drukken, 
-en het optillen kunnen doen door de knop van de muis los te laten. Vervang in de **Start code**, de code tussen `/// [potlood]` eens voor,
+en het optillen kunnen doen door de knop van de muis los te laten. Vervang in de **begin code**, de code tussen `/// [potlood]` eens voor,
 
 [](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript :fragment=potlood')
 
@@ -221,7 +220,7 @@ Als je nu de code "draait" door op de "play" knop te klikken, zou je 3 "sliders"
 Met deze sliders kan je een kleur mengen: Door de schuiven voeg je meer of minder van de basis kleuren rood, groen of blauw toe, en kan je elke kleur mengen die je zou willen!
 
 Maar... om te zien wat de kleur is die je gemengd hebt, en om daar ook mee te kunnen tekenen, moeten we nog 
-een stukje code toevoegen. Kopieer en plak de volgende code binnenin de fucntie `draw`, en dan bovenaan, 
+een stukje code toevoegen. Kopieer en plak de volgende code binnenin de functie `draw`, en dan bovenaan, 
 
 [](./snippets/pencil_coloured.js ':include :type=code javascript :fragment=kleurdoos-kleur-kiezen')
 
@@ -244,13 +243,13 @@ Hier onder staat uitgelegd hoe je stap voor stap je "[digitale potlood](###digit
 - kan [tekenen alsof je 2 x 6 = 12 handen hebt](###tekenen-met-2-x-6-handen), door spiegel en rotatie symmetrie samen te voegen.
 
 Maar, ... mocht je er liever kris kras doorheen lopen, of maar bepaalde onderdelen willen doen, 
-dan kan dit. Bijna elk tussenkopje begint met **start code**, die je de basis geeft om dat onderdeel 
-te volgen. Bijvoorbeeld, je kan de **start code** kopieren en plakken in de [`p5js` web editor](https://editor.p5js.org), om te kijken wat deze basis code doet. Vervolgens kan je de code aan passen,
+dan kan dit. Bijna elk tussenkopje begint met **begin code**, code tot dan toe, die je de basis geeft om dat onderdeel 
+te volgen. Bijvoorbeeld, je kan de **begin code** kopieren en plakken in de [`p5js` web editor](https://editor.p5js.org), om te kijken wat deze basis code doet. Vervolgens kan je de code aan passen,
 - op basis van wat er in het tussenkopje beschreven staat, of 
 - de beschrijving laten voor wat die is en de code aanpassen zoals je zelf denkt dat het zou moeten :wink: 
 
 Nog anders, mocht je even niet zoveel zin of tijd hebben om de tussenkopjes te volgen, kris kras of opvolgorde, 
-dan kan je [hier](###eind-code-2-x-6) ook al de **Eind code** vinden.
+dan kan je [hier](###eind-code-2-x-6) ook al de **eind code** vinden.
 
 ### Tekenen in Spiegelbeeld
  
