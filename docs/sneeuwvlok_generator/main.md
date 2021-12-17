@@ -232,4 +232,54 @@ En, als je nu met een muisknop ingedrukt je muis over het digitale papier beweeg
 
 Heb je wel eens geprobeerd met twee handen tegelijk te tekenen, in beide een potlood en dan proberen de potloden zo te sturen dat je twee keer hetzelfde tekend?
 
+### Tekenen in Spiegelbeeld
 
+ 
+<details>
+<summary>Start code!</summary>
+
+[](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript')
+</details>
+
+Kopieer en plak de **Start code** in de [editor](https://editor.p5js.org). Als je vervolgens op "play" 
+klikt, dan, 
+- zie je als het goed is een grijs "vel digitaal papier",
+- kan je tekenen door je muisknop ingedrukt te houden en de muis over het digitale papier te bewegen.
+
+Vervang eens in de code,
+
+[](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript :fragment=potlood')
+
+voor,
+
+[](./snippets/mirror_symmetry.js ':include :type=code javascript :fragment=potlood')
+
+Wanneer je nu klikt op "play", en je gaat tekenen, wat zie je dan gebeuren?
+
+Als het goed is zie je dat je met "twee handen" tekend, waarvan de ene het spiegelbeeld is van de andere: spiegel symmetrie!
+
+### Het papier verdelen in vlakken
+<details>
+<summary>Start code!</summary>
+
+[](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript')
+</details>
+
+Kopieer en plak eens de **Start code** in de [editor](https://editor.p5js.org). Als je vervolgens op "play" 
+klikt, dan, 
+- zie je als het goed is een grijs "vel digitaal papier",
+- kan je tekenen door je muisknop ingedrukt te houden en de muis over het digitale papier te bewegen.
+
+Voeg boven de functie `setup` eens de volgende code toe,
+
+[](./snippets/divide_in_planes.js ':include :type=code javascript :fragment=hulp-vlakken')
+
+en voeg binnenin `setup`, onderaan, de onderstande code toe,
+
+[](./snippets/divide_in_planes.js ':include :type=code javascript :fragment=vlakken')
+
+Wanneer je nu klikt op "play", zie je dan wat gebeuren?
+
+Als het goed is zie je nu,
+- 6 lijnen die in het midden bijelkaar komen, en
+- de lijnen verdelen het papier in 6 vlakken.
