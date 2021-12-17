@@ -51,12 +51,20 @@ Zie je nog misschien nog meer?
 Hieronder wordt uitgelegd hoe je digitaal kan tekenen met `p5js`. Stap voor stap 
 laat het je zien hoe je:
 - digitaal papier klaar legt,
-- een je muis als digitaal potlood kan gebruiken,
+- je muis als digitaal potlood kan gebruiken,
 - een tekening kan bewaren op je computer,
-- een je een hele kleurdoos tot je beschikking kan krijgen
+- je een hele kleurdoos tot je beschikking kan krijgen.
 
-Maar, ... mocht je nu even niet zoveel zin of tijd hebben om dit stap voor stap te doorlopen,
-dan kan je [hier](###eind-code) ook al de **Eind code** vinden,
+Maar, ... mocht je er liever kris kras doorheen lopen, of maar bepaalde onderdelen willen doen, 
+dan kan dit. Bijna elk tussenkopje begint met **start code**, die je de basis geeft om dat onderdeel 
+te volgen. Bijvoorbeeld, je kan de **start code** kopieren en plakken in de [`p5js` web editor](https://editor.p5js.org), om te kijken wat deze basis code doet. Vervolgens kan je de code aan passen,
+- op basis van wat er in het tussenkopje beschreven staat, of 
+- de beschrijving laten voor wat die is en de code aanpassen zoals je zelf denkt dat het zou moeten :wink: 
+
+Nog anders, mocht je even niet zoveel zin of tijd hebben om de tussenkopjes te volgen, kris kras of opvolgorde, 
+dan kan je [hier](###eind-code) ook al de **Eind code** vinden.
+
+
 
 ### Digitaal papier
 
