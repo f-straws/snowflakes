@@ -233,7 +233,6 @@ En, als je nu met een muisknop ingedrukt je muis over het digitale papier beweeg
 Heb je wel eens geprobeerd met twee handen tegelijk te tekenen, in beide een potlood en dan proberen de potloden zo te sturen dat je twee keer hetzelfde tekend?
 
 ### Tekenen in Spiegelbeeld
-
  
 <details>
 <summary>Start code!</summary>
@@ -256,9 +255,10 @@ voor,
 
 Wanneer je nu klikt op "play", en je gaat tekenen, wat zie je dan gebeuren?
 
-Als het goed is zie je dat je met "twee handen" tekend, waarvan de ene het spiegelbeeld is van de andere: spiegel symmetrie!
+Als het goed is zie je dat je met "twee handen" tekent, waarvan de ene het spiegelbeeld is van de andere: spiegel symmetrie!
 
 ### Het papier verdelen in vlakken
+
 <details>
 <summary>Start code!</summary>
 
@@ -276,10 +276,37 @@ Voeg boven de functie `setup` eens de volgende code toe,
 
 en voeg binnenin `setup`, onderaan, de onderstande code toe,
 
-[](./snippets/divide_in_planes.js ':include :type=code javascript :fragment=vlakken')
+[](./snippets/divide_in_planes.js ':include :type=code javascript :fragment=teken-vlakken')
 
 Wanneer je nu klikt op "play", zie je dan wat gebeuren?
 
 Als het goed is zie je nu,
 - 6 lijnen die in het midden bijelkaar komen, en
 - de lijnen verdelen het papier in 6 vlakken.
+
+### Tekenen in de vlakken
+
+<details>
+<summary>Start code!</summary>
+
+[](./snippets/divide_in_planes.js ':include :type=code javascript')
+
+</details>
+
+Wanneer je de start code kopieert en plakt in de [editor](https://editor.p5js.org) en vervolgens op "play" 
+klikt, dan zie je als het goed is een papier verdeelt in 6 vlakken.
+
+Vervang eens in de code,
+
+[](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript :fragment=potlood')
+
+voor,
+
+[](./snippets/rotation_symmetry.js ':include :type=code javascript :fragment=potlood')
+
+Wanneer je nu klikt op "play" en je gaat daarna tekenen binnen een vlak, wat zie je dan gebeuren?
+
+Als het goed is zie je dat je door in een vlak te tekenen, in alle vlakken tegelijk hetzelfde tekent: rotatie symmetrisch!
+
+
+
