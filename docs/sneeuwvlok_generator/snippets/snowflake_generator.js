@@ -47,6 +47,13 @@ function draw() {
       for (let i=0; i < 6; i++) {
         rotate(360 / 6);
         line(x, y, x0, y0);
+
+/// [spiegel-symmetrie]
+        push();
+        scale(-1, 1);
+        line(x, y, x0, y0);
+        pop();
+/// [spiegel-symmetrie]
       }
   }
 /// [potlood]

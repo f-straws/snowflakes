@@ -31,7 +31,7 @@ function draw() {
       line(x, y, x0, y0);
 
       push();
-      scale(-1, 1);
+      scale(1, -1);
       line(x, y, x0, y0);
       pop();
 

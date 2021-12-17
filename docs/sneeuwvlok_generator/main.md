@@ -228,7 +228,7 @@ En, als je nu met een muisknop ingedrukt je muis over het digitale papier beweeg
 
 </details>
 
-## Tekenen also je 6 handen hebt
+## Tekenen met 2 x 6 handen
 
 Heb je wel eens geprobeerd met twee handen tegelijk te tekenen, in beide een potlood en dan proberen de potloden zo te sturen dat je twee keer hetzelfde tekend?
 
@@ -308,5 +308,31 @@ Wanneer je nu klikt op "play" en je gaat daarna tekenen binnen een vlak, wat zie
 
 Als het goed is zie je dat je door in een vlak te tekenen, in alle vlakken tegelijk hetzelfde tekent: rotatie symmetrisch!
 
+### Tekenen met 2 x 6 handen
 
 
+<details>
+<summary>Start code!</summary>
+
+[](./snippets/rotation_symmetry.js ':include :type=code javascript')
+
+</details>
+
+Wanneer je de start code kopieert en plakt in de [editor](https://editor.p5js.org) en vervolgens op "play" 
+klikt, dan kan je als het goed is in 6 vlakken tegelijk tekenen: met 6 handen!
+
+Maar... het doel is om met 2 x 6 = 12 handen tegelijk te kunnen tekenen. Het "potlood" waarmee we met 6 
+handen tekenen is,
+
+[](./snippets/rotation_symmetry.js ':include :type=code javascript :fragment=potlood')
+
+Om met 2 x 6 handen te tekeken, kunnen we bijvoorbeeld, de volgende paar regels code toevoegen 
+aan het "potlood", onder `line(x, y, x0, y0);`
+
+[](./snippets/snowflake_generator.js ':include :type=code javascript :fragment=spiegel-symmetrie')
+
+Wanneer je nu klikt op "play" en je gaat daarna tekenen binnen een vlak, wat zie je dan gebeuren?
+
+Als het goed is zie je dat je door in een vlak te tekenen, 
+- in alle vlakken tegelijk hetzelfde tekent: rotatie symmetrie
+- binnen een vlak alles 2x tekent: spiegel symmetrie
