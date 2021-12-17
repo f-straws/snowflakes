@@ -1,11 +1,10 @@
 # Tekenen met `p5.js`
 
 Wanneer we javascript code schrijven met behulp van `p5js` (een code bibliotheek), 
-dan kunnen we code op verschillende plaatsen een plek geven. Je zou kunnen denken: 'Is dat van belang?' 
+kunnen we de code op verschillende plaatsen een plek geven //todokai wat bedoel je met plekken? Wellicht kan je met een afbeelding/code duidelijk maken wat je bedoelt met 'plekken' 
 
-Code, of de instructies die we schrijven, kunnen een ander resultaat geven, wanneer deze op een andere plek staat. 
-Bijvoorbeeld een `error` waardoor je programma het niet doet. 
-Wanneer je deze 'plekken' beter wilt leren kennen (wat ze doen, waar ze voor zijn), en daarmee beter wil kunnen 'voorspellen' hoe de computer je instructies leesten of je programma uberhaupt gaat werken, dan kan je onderstaande (of delen ervan) eens bekijken. 
+Code, of de instructies die we schrijven, kunnen een ander resultaat geven, wanneer deze op een andere plek staat.
+Wanneer je deze 'plekken' beter wilt leren kennen (wat ze doen, waar ze voor zijn), en daarmee beter wil kunnen 'voorspellen' hoe de computer je instructies leest en of je programma überhaupt gaat werken, dan kan je onderstaande (of delen ervan) eens bekijken.
 
 Let wel, wanneer je onderstaande leest en je denkt:
 - "ik snap het niet", of 

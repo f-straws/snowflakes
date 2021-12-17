@@ -11,7 +11,7 @@ de instructie geven:
 > teken alle punten die op een afstand van `50` pixels, 
 > van het midden van het papier liggen
 
-Als voorbeeld, kan je deze instructies vertalen naar de volgende code,
+Als voorbeeld kan je deze instructies vertalen naar de volgende code:
 ```javascript
 let papier = { lengte: 400, breedte: 400 };
 let radius = 50;
@@ -36,7 +36,7 @@ function draw() {
 }
 ```
 
-Wanneer we zelf bovenstaande instructies krijgen om met de muis 
-het digitale potlood te besturen, kunnen we het volgende doen,
+Wanneer we zelf de bovenstaande instructies krijgen om met de muis 
+de digitale potlood te besturen, kunnen we het volgende doen:
 
 WIP

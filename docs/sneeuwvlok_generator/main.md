@@ -1,4 +1,4 @@
-# Sneeuwvlok maker
+# Sneeuwvlokmaker
 
 Kijk eens naar de plaatjes van een sneeuwvlok (of eigenlijk een sneeuwkristal). Herken je ze als een sneeuwvlok?
 
