@@ -199,8 +199,9 @@ Als je nu een tekening maken en daarna op de 'save' knop drukt, wat gebeurt er d
 </details>
 
 Met de **Start code** kunnen we meerdere zwarte lijnen tekenen door, 
-- de muis als digitaal potlood over het digitale tekenpapier te bewegen, en
-- het digitale potlood met de muisknop 'op en neer' te bewegen. 
+- de muis als digitaal potlood over het digitale tekenpapier te bewegen,
+- het digitale potlood met de muisknop 'op en neer' te bewegen, en
+- de tekening bewaren.
 
 Maar, stel je eens voor dat je lijnen in verschillende kleuren zou willen maken?
 
@@ -241,6 +242,15 @@ Hier onder staat uitgelegd hoe je stap voor stap je "[digitale potlood](###digit
 - kan [tekenen alsof je 2 handen hebt](###tekenen-in-spiegelbeeld), met behulp van spiegel symmetrie,
 - kan [tekenen alsof je 6 handen hebt](###tekenen-in-6-vlakken), door gebruik te maken van rotatie symmetrie,
 - kan [tekenen alsof je 2 x 6 = 12 handen hebt](###tekenen-met-2-x-6-handen), door spiegel en rotatie symmetrie samen te voegen.
+
+Maar, ... mocht je er liever kris kras doorheen lopen, of maar bepaalde onderdelen willen doen, 
+dan kan dit. Bijna elk tussenkopje begint met **start code**, die je de basis geeft om dat onderdeel 
+te volgen. Bijvoorbeeld, je kan de **start code** kopieren en plakken in de [`p5js` web editor](https://editor.p5js.org), om te kijken wat deze basis code doet. Vervolgens kan je de code aan passen,
+- op basis van wat er in het tussenkopje beschreven staat, of 
+- de beschrijving laten voor wat die is en de code aanpassen zoals je zelf denkt dat het zou moeten :wink: 
+
+Nog anders, mocht je even niet zoveel zin of tijd hebben om de tussenkopjes te volgen, kris kras of opvolgorde, 
+dan kan je [hier](###eind-code-2-x-6) ook al de **Eind code** vinden.
 
 ### Tekenen in Spiegelbeeld
  
@@ -347,4 +357,41 @@ Als het goed is zie je dat je door in een vlak te tekenen,
 - in alle vlakken tegelijk hetzelfde tekent: rotatie symmetrie
 - binnen een vlak alles 2x tekent: spiegel symmetrie
 
+<a name="Eind code" id="eind-code-2-x-6"></a>
+### Eind code
+
+Hier is dan de eind code! Alle stukjes code die hierboven beschreven staan zul je hier in terug kunnen vinden. De code kan je gebruiken om tekeningen te maken maar bijvoorbeeld ook om als basis te gebruiken om verdere "teken code" te schrijven!
+
+[](./snippets/snowflake_generator.js ':include :type=code javascript')
+
 ## Sneeuwvlok tekenen
+
+In ["Tekenen"](##tekenen), kan je zien hoe een basis code opgebouwd om digitale potlood tekeningen 
+te kunnen maken, met verschillende kleuren en verschillende papier grootte en kleur. De code wordt opgebouwd 
+vanaf [digitaal papier](###digitaal-papier).
+
+In ["Tekenen met 2 x 6 handen"](##tekenen-met-2-x-6-handen), wordt een code basis gebouwd vanaf de code 
+om een [potlood op te kunnen tillen en neerzetten](###het-potlood-optillen-en-neerzetten) met de muis. Stapsgewijs breiden we de code uit van het "digitale potlood". We gaan van,
+
+[](./snippets/pencil_up_and_down_draw.js ':include :type=code javascript :fragment=potlood')
+
+naar,
+
+[](./snippets/snowflake_generator.js ':include :type=code javascript :fragment=potlood')
+
+En zo kunnen we eenvoudig tekeningen maken die wat weg hebben van bijvoorbeeld bloemen, maar ook van 
+sneeuwvlokken(/-kristallen). Want, in [symmetrie](##symmetrie) kan je ontdekken dat sneeuwkristallen: 
+
+- 6 voudige rotatie symmetry, en 
+- spiegel symmetrie,
+
+in zich hebben.
+
+Onderaan zijn de twee "**eind codes**" samenvoegd zodat je 
+- sneeuwkristallen kan tekenen met verschillende kleuren, en
+- je deze tekeningen kan opslaan.
+
+Ook is er nog iets aan toegevoegd, kan je ontdekken wat? (in de code, maar ook in een tekening?)
+
+[](./snippets/snowflake_generator_v2.js ':include :type=code javascript')
+  
