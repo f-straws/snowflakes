@@ -39,4 +39,3 @@ function draw() {
 Wanneer we zelf de bovenstaande instructies krijgen om met de muis 
 de digitale potlood te besturen, kunnen we het volgende doen:
 
-WIP

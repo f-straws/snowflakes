@@ -2,9 +2,13 @@
 
 Kijk eens naar de plaatjes van een sneeuwvlok (of eigenlijk een sneeuwkristal). Herken je ze als een sneeuwvlok?
 
-Het zijn foto's van sneeuwvlokken die in de natuur tegen zijn gekomen. Ze zijn opgevangen en daarna onder een microscoop gefotografeerd om ze in detail beter te kunnen zien (met het blote oog zul je ze waarschijnlijk...  niet zo zien :wink:). 
+Het zijn foto's van sneeuwvlokken die in de natuur tegen zijn gekomen. Ze zijn opgevangen en daarna onder een microscoop gefotografeerd om ze in detail beter te kunnen zien, 
 
 ![sneeuwvlokken - www.noaa.gov/stories/how-do-snowflakes-form-science-behind-snow](./images/PHOTO-snowflake-noaa-121516-1120x534-landscapehero.jpg)
+
+Met het blote oog zul je ze waarschijnlijk...  niet zo zien, toch? Hieronder zie je sneeuwkristallen van papier. Ze zijn gemaakt in 1864 door iemand die de sneeuwvlokken zag vallen op haar vensterbank,
+
+![sneeuwvlokken - http://www.snowcrystals.com/facts/chickering.jpg ](./images/chickering.jpg)
 
 <details>
 <summary>Maar, ... wat als je andere sneeuwvlokken hebt gezien?</summary>

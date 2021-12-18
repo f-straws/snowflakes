@@ -1,4 +1,4 @@
-# Tekenen met `p5.js`
+# [Work in progress] Tekenen met `p5.js`
 
 Wanneer we javascript code schrijven met behulp van `p5js` (een code bibliotheek), 
 kunnen we de code op verschillende plaatsen een plek geven //todokai wat bedoel je met plekken? Wellicht kan je met een afbeelding/code duidelijk maken wat je bedoelt met 'plekken' 
@@ -35,5 +35,5 @@ dan ligt het altijd aan de uitleg :wink: (te lang, saai, moeilijke woorden, ...)
 ### Pixels en een raster
 [tekenen_met_p5js/pixels_en_raster.md](pixels_en_raster.md ':include')
 
-## Tekeninstructies
+## [Work in progress] Tekeninstructies
 [tekenen_met_p5js/tekeninstructies.md](tekeninstructies.md ':include')
