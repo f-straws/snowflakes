@@ -4,17 +4,17 @@ Kijk eens naar de plaatjes van een sneeuwvlok (of eigenlijk een sneeuwkristal). 
 
 Het zijn foto's van sneeuwvlokken die in de natuur tegen zijn gekomen. Ze zijn opgevangen en daarna onder een microscoop gefotografeerd om ze in detail beter te kunnen zien, 
 
-![sneeuwvlokken - www.noaa.gov/stories/how-do-snowflakes-form-science-behind-snow](./images/PHOTO-snowflake-noaa-121516-1120x534-landscapehero.jpg)
+![sneeuwvlokken - www.noaa.gov/stories/how-do-snowflakes-form-science-behind-snow](./images/PHOTO-snowflake-noaa-121516-1120x534-landscapehero.jpg ':size=50%')
 
 Met het blote oog zul je ze waarschijnlijk...  niet zo zien, toch? Hieronder zie je sneeuwkristallen van papier. Ze zijn gemaakt in 1864 door iemand die de sneeuwvlokken zag vallen op haar vensterbank,
 
-![sneeuwvlokken - http://www.snowcrystals.com/facts/chickering.jpg ](./images/chickering.jpg)
+![sneeuwvlokken - http://www.snowcrystals.com/facts/chickering.jpg ](./images/chickering.jpg ':size=50%')
 
 <details>
 <summary>Maar, ... wat als je andere sneeuwvlokken hebt gezien?</summary>
 
 > De foto's laten voorbeelden van sneeuwvlokken zien, maar het is bekend dat sneeuwkristallen in nog meer verschillende vormen kunnen voorkomen, zoals je kan zien in het diagram,
-![sneeuwvlokken - http://www.snowcrystals.com/morphology](./images/SnowflakeMorphology2med.jpg)
+![sneeuwvlokken - http://www.snowcrystals.com/morphology](./images/SnowflakeMorphology2med.jpg ':size=50%')
 >
 > Mocht jezelf heel andere sneeuwvlokken hebben gezien, kan je die eens proberen te tekenen?
 
