@@ -33,6 +33,7 @@ Sneeuwvlokken kan je op verschillende manieren 'maken',
 Kan jij nog andere manieren bedenken?
 
 (Wil je meteen gaan tekenen of met de eind code aan de slag? Spring dan meteen naar [Sneeuwvlok tekenen](###sneeuwvlok-tekenen))
+
 ## Symmetrie
 Kijk eens naar de volgende tekening,
 
@@ -46,11 +47,11 @@ Wat zie je?
 
 Zie je, bijvoorbeeld, de herhaling in de ronde, of "draai symmetrie"?
 
-!["sneeuwkristal - draai-symmetrie"](./images/Frozen_Snow-Flakes-selection.png)
+!["sneeuwkristal - draai-symmetrie"](./images/Frozen_radial_symmetry.png)
 
 Zie je misschien ook de "spiegel symmetrie"?
 
-!["sneeuwkristal - spiegel-symmetrie"](./images/Frozen_Snow-Flakes-mirror.png)
+!["sneeuwkristal - spiegel-symmetrie"](./images/Frozen_mirror_symmetry.png)
 
 Zie je misschien nog meer?
 
