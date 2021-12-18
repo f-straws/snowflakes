@@ -1,4 +1,4 @@
-# Sneeuwvlokmaker
+# Sneeuwvlokgenerator
 
 Kijk eens naar de plaatjes van een sneeuwvlok (of eigenlijk een sneeuwkristal). Herken je ze als een sneeuwvlok?
 
@@ -20,7 +20,10 @@ Met het blote oog zul je ze waarschijnlijk...  niet zo zien, toch? Hieronder zie
 
 </details>
 
-Hieronder vind je een uitleg hoe je een programma kan schrijven met `p5js` waarmee je vervolgens sneeuwkristallen kan tekenen op de computer (wil je liever een filmpje zien? Op basis van [deze Engelse uitleg](https://youtu.be/R3C2giDfmO8) is deze Nederlandse uitleg geschreven). 
+Hieronder vind je een uitleg hoe je een programma kan schrijven met `p5js` 
+waarmee je vervolgens sneeuwkristallen kan tekenen op de computer 
+(wil je liever een filmpje zien? Op basis van [deze Engelse uitleg](https://youtu.be/R3C2giDfmO8) 
+is deze Nederlandse uitleg geschreven). 
 
 Sneeuwvlokken kan je op verschillende manieren 'maken',
 - door te [vouwen en te knippen](https://nzmaths.co.nz/sites/default/files/SnazzySnowflakes.pdf),
@@ -29,7 +32,7 @@ Sneeuwvlokken kan je op verschillende manieren 'maken',
 
 Kan jij nog andere manieren bedenken?
 
-(Wil je meteen gaan tekenen of met de eind code aan de slag? Spring dan meteen naar [Sneeuwvlok maken](##sneeuwvlok-maken))
+(Wil je meteen gaan tekenen of met de eind code aan de slag? Spring dan meteen naar [Sneeuwvlok tekenen](###sneeuwvlok-tekenen))
 ## Symmetrie
 Kijk eens naar de volgende tekening,
 
